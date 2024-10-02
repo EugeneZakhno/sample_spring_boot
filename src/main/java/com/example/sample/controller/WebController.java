@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class WebController {
     @GetMapping("/")
     public ResponseEntity<String> helloFromMe (){
-        return new ResponseEntity<>("Hello fucking body", HttpStatus.OK);
+        return new ResponseEntity<>("<h1>Эй, толстый!!!)<h1>", HttpStatus.OK);
     }
 
 
