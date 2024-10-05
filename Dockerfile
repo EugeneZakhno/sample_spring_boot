@@ -1,4 +1,4 @@
 FROM openjdk:17
 WORKDIR /app
-COPY /build/libs/sample_spring_boot-1.0-SNAPSHOT.jar /app/sample_spring_boot.jar
+COPY /target/sample-0.0.1-SNAPSHOT.jar /app/sample.jar
 ENTRYPOINT ["java", "-jar", "sample_spring_boot.jar"]
